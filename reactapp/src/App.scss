@@ -1,0 +1,84 @@
+html,
+body {
+  background: #222;
+  color: white;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1#title {
+  color: white;
+  font-size: 5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  margin-top: 10vh;
+}
+
+.titleButton,
+.titleInput {
+  width: 24rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titleInput {
+  // width: calc(24rem - 2rem);
+  background: white;
+  color: black;
+}
+
+.titleButton {
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  background: #666;
+  &.primary {
+    background: rgb(62, 111, 246);
+  }
+  &.secondary {
+    background: rgb(30, 215, 96);
+  }
+}
+
+.answer {
+  width: 24rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background: #2a2a2a;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0;
+
+  div {
+    padding: 1em;
+    text-align: left;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  img {
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .artist {
+    color: #ccc;
+  }
+}

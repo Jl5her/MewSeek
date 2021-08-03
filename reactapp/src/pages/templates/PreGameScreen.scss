@@ -1,0 +1,37 @@
+div[id$="-container"] {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#header-container {
+  background: steelblue;
+  height: 10vh;
+  width: 100%;
+  border-bottom: 5px solid rgb(45, 105, 155);
+  justify-content: center;
+}
+
+#children-container {
+  height: 100%;
+  width: 100%;
+}
+
+#main-container {
+  height: 85vh;
+  width: 100%;
+  position: relative;
+  padding: 2em;
+}
+
+#menu-container {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+#footer-container {
+  background: #333;
+  height: 5vh;
+  width: 100%;
+  justify-content: center;
+}

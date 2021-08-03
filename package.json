@@ -1,0 +1,8 @@
+{
+  "name": "mewseek",
+  "license": "MIT",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "concurrently \"cd server && yarn dev\" \"cd reactapp && yarn start\" \"cd discordbot && yarn dev\""
+  }
+}
